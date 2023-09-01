@@ -1,5 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
-  return <div className="flex text-4xl text-red-500">Goddav!</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
